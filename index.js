@@ -33,7 +33,7 @@ http
         break;
       case "/registration":
         response.write(registrationContent);
-        response.end();
+        return response.end();
       default:
         response.write(homeContent);
         response.end();
